@@ -2,7 +2,7 @@
 require_once __DIR__ . '/../../config/config.php';
 require_once __DIR__ . '/../models/Verificar.php';
 
-class verificarController {
+class VerificarController {
     private verificar $verificarModel;
 
     public function __construct() {
