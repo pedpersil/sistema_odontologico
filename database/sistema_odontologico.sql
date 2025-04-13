@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 09/04/2025 às 00:47
+-- Tempo de geração: 13/04/2025 às 14:34
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -203,6 +203,13 @@ CREATE TABLE `usuarios` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
+-- Despejando dados para a tabela `usuarios`
+--
+
+INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`, `tipo`, `criado_em`, `atualizado_em`) VALUES
+(1, 'Admin', 'admin@admin.com', '$2y$10$98OeeVRlL06jSI/nxvL12OHJG0i8gIiqxDSJIGmVigRj5ICN5rL.K', 'admin', '2025-04-13 09:33:22', '2025-04-13 09:33:22');
+
+--
 -- Índices para tabelas despejadas
 --
 
@@ -354,7 +361,7 @@ ALTER TABLE `receitas`
 -- AUTO_INCREMENT de tabela `usuarios`
 --
 ALTER TABLE `usuarios`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restrições para tabelas despejadas
