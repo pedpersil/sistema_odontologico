@@ -6,7 +6,7 @@ define('DB_NAME', 'sistema_odontologico');
 define('DB_USER', 'root'); // Substitua pelo seu usuário
 define('DB_PASS', ''); // Substitua pela sua senha
 define('SESSION_NAME', 'sistema_odontologico'); // Nome da sessão
-define('BASE_URL', 'http://localhost/sistema_odontologico/public'); // URL Base do Sistema com / no final
+define('BASE_URL', 'http://localhost/sistema_odontologico/public'); // URL Base do Sistema sem / no final
 define('SECRET_KEY', 'Hello World!!!'); // Chave para ajudar na criptografia.
 
 define('NOME_CLINICA', 'CLÍNICA ODONTOLÓGICA'); // Nome da clinica
